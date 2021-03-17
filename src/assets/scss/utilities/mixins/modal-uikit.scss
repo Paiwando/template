@@ -1,0 +1,7 @@
+@import "../../base/base-variables.scss";
+
+// uikit modal mixins
+// ========================================================================
+@mixin hook-modal-dialog(){
+    backdrop-filter: blur(20px);
+}

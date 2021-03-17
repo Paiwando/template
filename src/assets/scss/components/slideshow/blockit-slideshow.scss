@@ -1,0 +1,22 @@
+// slideshow variable
+$slideshow-default-color:                          $base-default-color !default;
+$slideshow-muted-color:                            $base-muted-color !default;
+$slideshow-primary-color:                          $base-primary-color !default;
+$slideshow-secondary-color:                        $base-secondary-color !default;
+$slideshow-border-color:                           $base-border-color !default;
+$slideshow-border-color-2:                         $base-border-color-2 !default;
+$slideshow-border-width:                           $base-border-width !default;
+$slideshow-border-width-2:                         $base-border-width-2 !default;
+$slideshow-border-radius:                          $base-border-radius !default;
+$slideshow-border-radius-2:                        $base-border-radius-2 !default;
+
+
+// slideshow component
+@import "slideshow-1.scss";
+
+.in-slideshow {
+    .uk-slideshow-nav {
+        margin-left: -11px;
+        bottom: 305px;
+    }
+}

@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Rubik Light'), local('Rubik-Light'),
+        url('../fonts/rubik-v9-latin-300.woff2') format('woff2'),
+        url('../fonts/rubik-v9-latin-300.woff') format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Rubik'), local('Rubik-Regular'),
+        url('../fonts/rubik-v9-latin-regular.woff2') format('woff2'),
+        url('../fonts/rubik-v9-latin-regular.woff') format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Rubik Medium'), local('Rubik-Medium'),
+        url('../fonts/rubik-v9-latin-500.woff2') format('woff2'),
+        url('../fonts/rubik-v9-latin-500.woff') format('woff');
+    font-display: swap;
+}

@@ -1,0 +1,8 @@
+// uikit button mixins
+// ========================================================================
+@mixin hook-button-default(){ 
+    box-shadow: inset 0px 0px 0px $button-border-width $button-default-border;
+}
+@mixin hook-button-default-hover(){ 
+    border-color: darken($button-default-border, 5%); 
+}

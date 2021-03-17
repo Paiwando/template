@@ -1,0 +1,23 @@
+.in-card-10 {    
+    .uk-card-default {
+        border: $card-border-width solid $card-border-color;
+        background-color: $card-default-color;
+        hr {
+            border-width: 2px;
+        }
+        p {
+            font-size: 0.882rem;
+        }
+        a {
+            color: inherit;
+            text-decoration: none;
+            i {
+                font-size: 11px;
+                margin-top: 5px;
+            }
+        }
+    }
+    .uk-card-body {
+        padding: 28px;
+    }
+}

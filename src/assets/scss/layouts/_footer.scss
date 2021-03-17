@@ -1,0 +1,76 @@
+footer {
+    font-size: 14px;
+    color: #8f8f8f;
+    .uk-section-secondary {
+        font-size: 12px;
+        background-color: $base-secondary-color;
+        .uk-container {
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+    }    
+    h4 span {
+        border-bottom: $base-border-width-2 solid $base-border-color;
+    }
+    hr {
+        border-width: 2px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .uk-text-large {
+        font-size: 17px;
+        font-weight: 500;
+        color: #4d4d4d;
+    }
+    .uk-text-small {
+        font-size: 13px;
+        line-height: 23px;
+    }
+    .in-payment-method {
+        .uk-card-default {
+            background-color: transparent;
+            border: $base-border-width solid $base-border-color;
+            border-radius: $base-border-radius;
+            img {
+                filter: grayscale(1);
+                opacity: 0.7;
+            }
+        }
+    }
+    .in-footer-socials {
+        margin-top: 5px;
+        a:hover {
+            text-decoration: inherit;
+        }
+        i {
+            margin-left: 32px;
+            font-size: 28px;
+            &.fa-youtube {
+                color: #fd001a;
+            }
+            &.fa-facebook-square {
+                color: #495b95;
+            }
+            &.fa-instagram {
+                color: #e1306c;
+            }
+            &.fa-twitter {
+                color: #60a9da;
+            }
+        }
+    }
+    @media (max-width: 960px) {
+        .in-footer-socials {
+            i {
+                margin-left: 0;
+                margin-right: 32px;
+            }
+        }
+    }
+    .uk-section-secondary:not(.uk-preserve-color) .uk-subnav>*>:first-child {
+        color: rgba(255,255,255,.7);
+    }
+    .uk-subnav-divider>::before {
+        height: 1em;
+    }
+}

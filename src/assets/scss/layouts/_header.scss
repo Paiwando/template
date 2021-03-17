@@ -1,0 +1,84 @@
+header {
+    position: relative;
+    z-index: 1;
+    .uk-logo {
+        margin-top: 5px;
+    }    
+    .in-header-home {
+        background: rgba(0,0,0,0.5);
+        background: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(255,255,255,0) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ffffff', GradientType=0 );
+        .uk-navbar-nav li a {
+            color: rgba(255,255,255,.75);
+            &:hover {
+                color: rgba(255,255,255,1);
+            }
+        }
+        .uk-navbar-nav>li.uk-active>a {
+            color: rgba(255,255,255,1);
+        }
+        .uk-navbar-dropdown li a {
+            color: #999;
+            &:hover {
+                color: #666;
+            }
+        }
+        .in-optional-nav {
+            a:first-child {
+                border-left: 1px solid rgba(255,255,255,0.4);
+                color: rgba(255,255,255,.75);
+            }
+            .uk-button-primary {
+                background-color: rgba(255,255,255,0.2);
+                box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.3);
+                backdrop-filter: blur(2px);
+            }
+        }
+    }
+    .in-header-inner {
+        border-bottom: $base-border-width solid $base-border-color;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        margin-bottom: 18px;
+    }
+    i.in-home-icon {
+        font-size: 14px;
+    }
+    .uk-navbar-dropdown {
+        border-bottom-left-radius: $base-border-radius;
+        border-bottom-right-radius: $base-border-radius;
+        li {
+            font-size: 14px;
+            text-transform: initial;
+        }
+    }
+    .in-optional-nav {
+        .uk-button {
+            font-size: 15px;
+        }
+        .uk-button-primary {
+            padding: 1px 22px 2px 22px;
+        }
+        a:first-child {
+            border-left: 1px solid rgba(0,0,0,0.15);
+            padding: 5px 32px 3px 32px;
+            i {
+                font-size: 16px;
+            }
+        }
+    } 
+    .uk-card-secondary {
+        background-color: $base-secondary-color;
+        color: rgba(255, 255, 255, .7);
+        p {
+            margin-top: 1px;
+            font-size: 12.5px;            
+        }
+        a {
+            font-size: 12.5px;
+            text-transform: uppercase;
+            &:hover {
+                text-decoration: inherit;
+            }
+        }
+    }
+}

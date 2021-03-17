@@ -1,0 +1,31 @@
+.in-header-home {
+    .in-mobile-nav {
+        .uk-button {
+            font-size: 17px;
+            padding: 2px 16px;
+            color: rgba(255,255,255,0.8);
+            background-color: rgba(255,255,255,0.1);
+            box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.3);
+            border-radius: $navigation-border-radius;
+            backdrop-filter: blur(2px);
+        }
+    }
+}
+.in-mobile-nav {
+    .uk-button {
+        font-size: 17px;
+        padding: 2px 16px;
+        color: $navigation-secondary-color;
+        background-color: transparent;
+        box-shadow: inset 0px 0px 0px 1px $navigation-border-color;
+        border-radius: $navigation-border-radius;
+    }
+}
+.uk-modal-close-full {
+    padding: 1px 17px;
+    background-color: $navigation-default-color;
+    border: $navigation-border-width solid $navigation-border-color;
+    border-radius: $navigation-border-radius;
+    top: 18px;
+    right: 18px;
+}

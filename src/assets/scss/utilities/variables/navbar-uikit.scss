@@ -1,0 +1,32 @@
+@import "../../base/base-variables.scss";
+
+// uikit navigation variables
+// ========================================================================
+$navbar-background:                              #f8f8f8 !default;
+$navbar-color-mode:                              none !default;
+
+$navbar-nav-item-height:                         98px !default;
+$navbar-nav-item-padding-horizontal:             22px !default;
+$navbar-nav-item-color:                          #999 !default;
+$navbar-nav-item-font-size:                      15px !default;
+$navbar-nav-item-font-family:                    $base-heading-font !default;
+$navbar-nav-item-hover-color:                    #666 !default;
+$navbar-nav-item-onclick-color:                  #333 !default;
+$navbar-nav-item-active-color:                   $base-primary-color !default;
+
+$navbar-dropdown-width:                          200px !default;
+$navbar-dropdown-margin:                         0 !default;
+$navbar-dropdown-padding:                        15px !default;
+$navbar-dropdown-background:                     #fff !default;
+$navbar-dropdown-grid-gutter-horizontal:         40px !default;
+$navbar-dropdown-grid-gutter-vertical:           $navbar-dropdown-grid-gutter-horizontal !default;
+
+$navbar-dropdown-nav-item-color:                 $navbar-nav-item-color !default;
+$navbar-dropdown-nav-item-hover-color:           $navbar-nav-item-hover-color !default;
+$navbar-dropdown-nav-item-active-color:          $navbar-nav-item-active-color !default;
+
+$navbar-dropdown-box-shadow:                     0 5px 12px rgba(0,0,0,0.15) !default;
+$navbar-dropdown-grid-divider-border-width:      1px !default;
+$navbar-dropdown-grid-divider-border:            #e5e5e5 !default;
+
+$logo-font-family:                               $navbar-nav-item-font-family !default;

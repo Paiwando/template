@@ -1,0 +1,12 @@
+<!-- module breadcrumb begin -->        
+<div class="uk-width-1-1 in-breadcrumb">
+    <ul class="uk-breadcrumb uk-text-uppercase">
+        <li><a href="{{root}}index.html">Home</a></li>
+        {{#ifpage 'blog-article'}}
+        <li><a href="#">Company</a></li>
+        <li><a href="{{root}}blog-list.html">Blog</a></li>
+        <li class="uk-visible@m"><span>Here’s what is driving GM’s reported plans to develop a commercial electric van</span></li>
+        {{/ifpage}}
+    </ul>
+</div>
+<!-- module breadcrumb end -->

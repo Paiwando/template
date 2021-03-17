@@ -1,0 +1,44 @@
+// blokit base variable
+$base-container-width:                     1170px !default;
+$base-container-color:                     #fff !default;
+
+$base-default-color:                       #fff !default;
+$base-muted-color:                         #f8f8f8 !default;
+$base-primary-color:                       #c99c3b !default;
+$base-secondary-color:                     #313131 !default;
+
+$base-section-default-color:               $base-default-color !default;
+$base-section-muted-color:                 #f6f7f8 !default;
+$base-section-primary-color:               $base-primary-color !default;
+$base-section-secondary-color:             $base-secondary-color !default;
+
+$base-border-color:                        #e8e8e8 !default;
+$base-border-color-2:                      rgba(30, 135, 240, .09) !default;
+$base-border-width:                        1px !default;
+$base-border-width-2:                      2px !default;
+$base-border-radius:                       7px !default;
+$base-border-radius-2:                     12px !default;
+
+$base-link:                                $base-primary-color !default;
+$base-link-hover:                          darken($base-link, 5%) !default;
+
+$base-font-family:                         'Rubik', sans-serif !default;
+$base-font-weight:                         400 !default;
+$base-font-size:                           16px !default;
+$base-font-color:                          #666 !default;
+$base-font-small:                          0.824rem !default;
+
+$base-text-lead-font-weight:               300 !default;
+$base-text-lead-size:                      1.5rem !default;
+$base-text-lead-line-height:               1.5 !default;
+$base-text-lead-color:                     #727272 !default;
+
+$base-text-primary-color:                  $base-primary-color !default;
+$base-text-secondary-color:                #222 !default;
+$base-text-success-color:                  #32d296 !default;
+$base-text-warning-color:                  #faa05a !default;
+$base-text-danger-color:                   #f0506e !default;
+
+$base-heading-font:                        'Rubik', sans-serif !default;
+$base-heading-weight:                      500 !default;
+$base-heading-color:                       #333 !default;

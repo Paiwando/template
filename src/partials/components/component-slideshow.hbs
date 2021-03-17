@@ -1,0 +1,29 @@
+<div class="uk-section uk-padding-remove-vertical">
+    <div class="in-slideshow" data-uk-slideshow>        
+        <ul class="uk-slideshow-items uk-light">
+            {{#ifpage 'index'}}
+            {{> module-slideshow-1}}
+            {{> module-slideshow-2}}
+            {{> module-slideshow-3}}
+            {{/ifpage}}
+            {{#ifpage 'homepage2'}}
+            {{> module-slideshow-2}}         
+            {{> module-slideshow-3}}
+            {{> module-slideshow-4}}
+            {{/ifpage}}
+            {{#ifpage 'homepage3'}}
+            {{> module-slideshow-3}}
+            {{> module-slideshow-4}}
+            {{> module-slideshow-1}}
+            {{/ifpage}}
+            {{#ifpage 'homepage4'}}
+            {{> module-slideshow-4}}
+            {{> module-slideshow-1}}
+            {{> module-slideshow-2}}
+            {{/ifpage}}
+        </ul>
+        <div class="uk-container uk-light">
+            <ul class="uk-slideshow-nav uk-dotnav uk-position-bottom-center"></ul>
+        </div>
+    </div>
+</div>

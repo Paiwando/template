@@ -1,0 +1,19 @@
+// uikit nav mixins
+// ========================================================================
+@mixin hook-nav-default(){
+    margin-top: -40px;
+}
+@mixin hook-nav-default-item(){
+    font-size: 24px
+}
+@mixin hook-nav-sub(){
+    li {
+        a {
+            font-size: 18px;
+            i {
+                margin-left: 8px;
+                font-size: 13px;
+            }
+        }
+    }
+}
