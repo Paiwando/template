@@ -15,7 +15,7 @@
     4. slideshow
     5. footer
     6. components
-    7. custom    
+    7. custom
     8. utility
     9. vendors
 ------------------------------------------------------------------ */
@@ -265,9 +265,9 @@ header .uk-card-secondary a:hover {
 }
 
 .uk-sticky.uk-active a.uk-logo {
-    width: 134px;
-    height: 23px;
-    background: url(../img/in-logo-1.svg);
+    width: 80px;
+    height: 80px;
+    background: url(../img/BULL_FOREX_LOGO.png);
     background-size: 99.7%;
     margin-top: -2px;
 }
